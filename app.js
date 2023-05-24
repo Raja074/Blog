@@ -319,14 +319,14 @@ function scoreRender() {
   // choose the image based on the scorePerCent
   let img =
     scorePerCent >= 80
-      ? "Stuffs/img/5.png"
+      ? "5.png"
       : scorePerCent >= 60
-      ? "Stuffs/img/4.png"
+      ? "4.png"
       : scorePerCent >= 40
-      ? "Stuffs/img/3.png"
+      ? "3.png"
       : scorePerCent >= 20
-      ? "Stuffs/img/2.png"
-      : "Stuffs/img/1.png";
+      ? "2.png"
+      : "1.png";
 
   scoreDiv.innerHTML = "<img src=" + img + ">";
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
