@@ -17,7 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
   {
     question: "Who is he?",
-    imgSrc: "Stuffs/img/dog.gif",
+    imgSrc: "dog.gif",
     choiceA: "Jake",
     choiceB: "DogMan",
     choiceC: "Finn",
@@ -26,7 +26,7 @@ let questions = [
   },
   {
     question: "I had 100 flowers. Sadly, all but 10 died. How many are left?",
-    imgSrc: "Stuffs/img/flowers.gif",
+    imgSrc: "flowers.gif",
     choiceA: "10",
     choiceB: "90",
     choiceC: "0",
@@ -35,7 +35,7 @@ let questions = [
   },
   {
     question: "What is the most common colour of toilet paper in France?",
-    imgSrc: "Stuffs/img/zero.gif",
+    imgSrc: "zero.gif",
     choiceA: "Pink",
     choiceB: "White",
     choiceC: "White Smoke",
@@ -44,7 +44,7 @@ let questions = [
   },
   {
     question: "What is it that goes up, but never comes down?",
-    imgSrc: "Stuffs/img/trick.gif",
+    imgSrc: "trick.gif",
     choiceA: "Love",
     choiceB: "Honesty",
     choiceC: "Age",
@@ -53,7 +53,7 @@ let questions = [
   },
   {
     question: "What is Lord Voldemort’s real name?",
-    imgSrc: "Stuffs/img/doo.gif",
+    imgSrc: "doo.gif",
     choiceA: "Tom Marvolo Riddle",
     choiceB: "Tom Marvilo Riddle",
     choiceC: "Tom Marvin Riddle",
@@ -62,7 +62,7 @@ let questions = [
   },
   {
     question: "Who is Mojo Jojo?",
-    imgSrc: "Stuffs/img/mojo.png",
+    imgSrc: "mojo.png",
     choiceA: "Crazy scientist",
     choiceB: "Monkey",
     choiceC: "Genius Chimpanzee",
@@ -71,7 +71,7 @@ let questions = [
   },
   {
     question: "What was Tom's full name?",
-    imgSrc: "Stuffs/img/cat.png",
+    imgSrc: "cat.png",
     choiceA: "Thomas Cat",
     choiceB: "Cat Tom",
     choiceC: "Tommy",
@@ -80,7 +80,7 @@ let questions = [
   },
   {
     question: "What is Oggy's hobby?",
-    imgSrc: "Stuffs/img/oggy.png",
+    imgSrc: "oggy.png",
     choiceA: "Watching TV",
     choiceB: "Reading the newspaper",
     choiceC: "Eating Hotdogs",
@@ -90,7 +90,7 @@ let questions = [
   {
     question:
       "Who was the first between Shinzo and Shishimaru to appear in the show?",
-    imgSrc: "Stuffs/img/hatori.png",
+    imgSrc: "hatori.png",
     choiceA: "Shinzo",
     choiceB: "Shishimaru",
     choiceC: "Tomako",
@@ -99,7 +99,7 @@ let questions = [
   },
   {
     question: "Which of these statements is correct?",
-    imgSrc: "Stuffs/img/doraemon.gif",
+    imgSrc: "doraemon.gif",
     choiceA: "Doraemon is a dogrobot",
     choiceB: "Doraemon is a catrobot",
     choiceC: "Doraemon wants Sizuka",
@@ -108,7 +108,7 @@ let questions = [
   },
   {
     question: "How old is Pikachu in 2020?",
-    imgSrc: "Stuffs/img/pikachu.gif",
+    imgSrc: "pikachu.gif",
     choiceA: "20 years",
     choiceB: "19 years",
     choiceC: "12 years",
@@ -117,7 +117,7 @@ let questions = [
   },
   {
     question: "What is the highest-grossing box office film of all time?",
-    imgSrc: "Stuffs/img/master.gif",
+    imgSrc: "master.gif",
     choiceA: "Parasite",
     choiceB: "Horns",
     choiceC: "Titanic",
@@ -127,7 +127,7 @@ let questions = [
   {
     question:
       "How could a man go outside in the pouring rain without protection, and not have a hair on his head get wet?",
-    imgSrc: "Stuffs/img/emoji.gif",
+    imgSrc: "emoji.gif",
     choiceA: "He was insane",
     choiceB: "He wasn't a man",
     choiceC: "He was SpiderMan",
@@ -136,7 +136,7 @@ let questions = [
   },
   {
     question: "How many brothers does Ricardo Milos have?",
-    imgSrc: "Stuffs/img/ricardo.gif",
+    imgSrc: "ricardo.gif",
     choiceA: "He has no brother.",
     choiceB: "He has a twin bro",
     choiceC: "He has a Nigga bro",
@@ -145,7 +145,7 @@ let questions = [
   },
   {
     question: "In the series Johnny Bravo, What color is Johnny's hair?",
-    imgSrc: "Stuffs/img/bravo.png",
+    imgSrc: "bravo.png",
     choiceA: "Blonde",
     choiceB: "Brown",
     choiceC: "Red yellow",
@@ -154,7 +154,7 @@ let questions = [
   },
   {
     question: "You fall in love with girls?",
-    imgSrc: "Stuffs/img/girl.png",
+    imgSrc: "girl.png",
     choiceA: "Yes",
     choiceB: "Sure",
     choiceC: "Certainly",
@@ -163,7 +163,7 @@ let questions = [
   },
   {
     question: "Can you guess this Alien?",
-    imgSrc: "Stuffs/img/ben10.png",
+    imgSrc: "ben10.png",
     choiceA: "Overflow",
     choiceB: "Swampfire",
     choiceC: "Wildvine",
@@ -173,7 +173,7 @@ let questions = [
   {
     question:
       "Some months have 31 days, others have 30 days, but how many have 28 days?",
-    imgSrc: "Stuffs/img/0.gif",
+    imgSrc: "0.gif",
     choiceA: "All the months",
     choiceB: "February",
     choiceC: "2 February in 10 years",
@@ -182,7 +182,7 @@ let questions = [
   },
   {
     question: "4 / 4 * (4 + 4 - 4 -4)?",
-    imgSrc: "Stuffs/img/frog.gif",
+    imgSrc: "frog.gif",
     choiceA: "4",
     choiceB: "LOl",
     choiceC: "0",
@@ -191,7 +191,7 @@ let questions = [
   },
   {
     question: "Who is Mr. Bean’s best friend?",
-    imgSrc: "Stuffs/img/bean.gif",
+    imgSrc: "bean.gif",
     choiceA: "Teddy",
     choiceB: "Tedy",
     choiceC: "Tiddy",
