@@ -361,6 +361,7 @@ footer {
 
 li {
   float: left;
+   display: block;
 }
 
 li a {
