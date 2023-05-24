@@ -227,7 +227,7 @@ start.addEventListener("click", startQuiz);
 // start quiz
 function startQuiz() {
   var music = new Audio();
-  music.src = "Stuffs/music/Easy song.mp3";
+  music.src = "Easy song.mp3";
   music.play();
   start.style.display = "none";
   renderQuestion();
@@ -294,7 +294,7 @@ function checkAnswer(answer) {
 function answerIsCorrect() {
   document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
   var music = new Audio();
-  music.src = "Stuffs/music/yeah.mp3";
+  music.src = "yeah.mp3";
   music.play();
 }
 
@@ -302,7 +302,7 @@ function answerIsCorrect() {
 function answerIsWrong() {
   document.getElementById(runningQuestion).style.backgroundColor = "#f00";
   var music = new Audio();
-  music.src = "Stuffs/music/Huh.mp3";
+  music.src = "Huh.mp3";
   music.play();
 }
 
@@ -310,7 +310,7 @@ function answerIsWrong() {
 function scoreRender() {
   scoreDiv.style.display = "block";
   var music = new Audio();
-  music.src = "Stuffs/music/GameOver.mp3";
+  music.src = "GameOver.mp3";
   music.play();
 
   // calculate the amount of question percent answered by the user
